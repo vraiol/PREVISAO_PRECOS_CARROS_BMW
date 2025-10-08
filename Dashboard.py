@@ -91,9 +91,9 @@ if not df.empty:
     
     # Define o título principal da página
     if selected_brand == 'Todos':
-        st.header("Análises para todas as marcas")
+        st.header("Análises para todos os modelos")
     else:
-        st.header(f"Análises para a marca: {selected_brand}")
+        st.header(f"Análises para o modelo: {selected_brand}")
 
     # --- LÓGICA PARA EXIBIR GRÁFICOS OU A ÁRVORE ---
     if not df_filtrado_final.empty:
