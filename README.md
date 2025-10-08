@@ -1,5 +1,6 @@
 ##🤖 Projeto de Previsão de Preços de Carros BMW
-
+<blockquote>
+    
 Este projeto utiliza Machine Learning para prever o valor de carros usados da marca BMW com base em suas características, como modelo, ano, quilometragem e tipo de combustível.
 Para tornar a experiência interativa, foi desenvolvido um dashboard web onde o usuário pode inserir as informações de um veículo e receber uma estimativa de preço em tempo real.
 
