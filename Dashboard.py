@@ -5,7 +5,7 @@ import numpy as np
 from PIL import Image
 
 # --- 1. CONFIGURAÇÃO DA PÁGINA E TÍTULOS ---
-st.set_page_config(layout="wide")
+st.set_page_config(layout="wide") 
 st.title('Análise e Previsão de Preço de Carros')
 st.subheader('Por Douglas Gobitsch, Cauã Guerreiro e Vinícius Raiol.')
 
