@@ -1,14 +1,14 @@
-🤖 Projeto de Previsão de Preços de Carros BMW
+#🤖 Projeto de Previsão de Preços de Carros BMW
 Este projeto utiliza Machine Learning para prever o valor de carros usados da marca BMW com base em suas características, como modelo, ano, quilometragem e tipo de combustível.
 
 Para tornar a experiência interativa, foi desenvolvido um dashboard web onde o usuário pode inserir as informações de um veículo e receber uma estimativa de preço em tempo real.
 
 (Sugestão: Tire um print da sua aplicação funcionando e substitua o link acima para exibir uma imagem real do seu dashboard!)
 
-🎯 Objetivo
+#🎯 Objetivo
 O principal objetivo é aplicar técnicas de ciência de dados e aprendizado de máquina para construir um modelo preditivo preciso e, ao mesmo tempo, fornecer uma interface simples e intuitiva para que usuários finais possam interagir com o modelo sem precisar de conhecimentos técnicos.
 
-✨ Funcionalidades
+#✨ Funcionalidades
 Análise de Dados: Tratamento e preparação dos dados a partir do arquivo bmwdataset_tratado.csv.
 
 Modelo Preditivo: Treinamento de um modelo de regressão (Random Forest) para estimar preços.
@@ -25,7 +25,7 @@ Informar a quilometragem, o consumo (MPG) e o tamanho do motor.
 
 Previsão em Tempo Real: O dashboard utiliza o modelo treinado (.pkl) para gerar a previsão instantaneamente.
 
-🛠️ Tecnologias Utilizadas
+#🛠️ Tecnologias Utilizadas
 Este projeto foi construído utilizando as seguintes tecnologias e bibliotecas Python:
 
 Pandas: Para manipulação e análise dos dados.
@@ -36,7 +36,7 @@ Streamlit: Para a construção e execução do dashboard web interativo.
 
 Pickle: Para salvar e carregar o modelo treinado.
 
-📁 Estrutura do Projeto
+#📁 Estrutura do Projeto
 PREVISAO_PRECOS_CARROS_BMW-main/
 │
 ├──  Dashboard.py                    # Arquivo principal que executa a aplicação web (dashboard)
@@ -50,7 +50,7 @@ PREVISAO_PRECOS_CARROS_BMW-main/
     ├── arvore_de_decisao.png         # Imagem da árvore de decisão gerada
     └── arvore_completa.dot           # Arquivo de dados para a visualização da árvor****
 
-🧠 O Modelo de Machine Learning
+#🧠 O Modelo de Machine Learning
 Para a tarefa de predição, foi utilizado um algoritmo Random Forest Regressor.
 
 O que é? É um modelo de conjunto (ensemble) que opera construindo múltiplas árvores de decisão durante o treinamento. Para uma previsão de regressão (como prever um preço), ele calcula a média das previsões de cada árvore individual, resultando em uma estimativa mais robusta e precisa.
